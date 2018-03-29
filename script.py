@@ -14,7 +14,6 @@ def cleanJson(database):
 		print("Limpie el archivo")
 	return content
 
-
 def convert_coordinates(string):  #Transforma coordenadas con Orientacion al final a numero, probado con Formato 2- Limpio 2.json
 	if isinstance(string, float):
 		pass
@@ -31,17 +30,24 @@ def remove_duplicates(x):  #Elimina duplicados de informacion (duplicados perfec
 	return list(set(x))
 
 
-def data_to_csv(data,output_path):
-	keys = toCSV[0].keys()
-	with open(output_path, 'w') as output_file:
-		dict_writer = csv.DictWriter(output_file, keys)
-		dict_writer.writeheader()
-		dict_writer.writerows(data)
-
-
 class JsonData():
 	def __init__(self):
 		self.master_database= [] #lista de diccionarios
+
+	@property
+	def gps_database(self):
+		output=[]
+		for i in self.master_database:
+			if "sensors" in i.keys():
+				for sensor in i["sensors"]:
+					if sensor["sensorType"] == "GPS6000":
+						dic = sensor["data"]  #Aparentemente no siempre es el primero!
+			else:
+				dic = i["data"]  #Su longitud y latitud tienen una letra al final:
+
+			if dic["_RAW"] != "" and dic["valid"] in ["1","2","3","4","5"]:
+				output.append(dic)
+		return output
 
 	def export_to_kml(self,output_path):
 		data_invalida = [] #Solo util para debug
@@ -49,7 +55,7 @@ class JsonData():
 		data_locaciones = []
 		for i in self.master_database:
 			if "sensors" in i.keys(): #Existen 2 formatos distintos 
-				dic = i["sensors"][0]["data"]  
+				dic = i["sensors"][0]["data"] #Corregir dicha asuncion
 			else:
 				dic = i["data"]  #Su longitud y latitud tienen una letra al final
 			if dic["_RAW"] != "":
@@ -62,8 +68,8 @@ class JsonData():
 					lineas_invalidas+=1
 					data_invalida.append(dic)
 		print("Numero de lineas no parseadas: {}".format(lineas_invalidas))
-		for i in data_invalida:
-			print(i)
+		#for i in data_invalida:
+		#	print(i)
 
 		kml = simplekml.Kml()
 		for i in data_locaciones:
@@ -77,20 +83,18 @@ class JsonData():
 			with open(ruta, 'r') as content:
 				database = cleanJson(content) #Lista de diccionarios, cada diccionario es un log
 				self.master_database += [json.loads(i) for i in database] #Lista de objetos JSON
-				print("Importé el archivo {}".format(self.ruta))
-
+				print("Importe el archivo {}".format(ruta))
 		elif isdir(ruta):
 			files = [f for f in listdir(ruta) if isfile(join(ruta, f))]
 			contador = 0
 			for i in files:
 				if i[-5:] == ".json":  #Reconozco aquellos archivos que son .json
 					with open(ruta+"/"+i, 'r') as database:
-						print("Abrí archivo {}".format(ruta+"/"+i))
+						print("Abri archivo {}".format(ruta+"/"+i))
 						content = cleanJson(database) #Lista de diccionarios, cada diccionario es un log
 						self.master_database += [json.loads(i) for i in content] #Lista de objetos JSON
 						contador+=1
 			print("Numero de archivos .json importados: {}".format(contador))
-
 		else:
 			print("Error al importar")
 
@@ -103,19 +107,28 @@ class JsonData():
 				dic = i["sensors"][0]["data"]  
 			else:
 				dic = i["data"]  #Su longitud y latitud tienen una letra al final
-			if dic["_RAW"] == "" or dic["valid"] != "1":
+
+			if dic["_RAW"] == "" or dic["valid"] not in ["1","2","3","4","5"]:  #Codigos asociados a data valida
 				self.master_database.remove(i)
 				contador+=1
 				eliminados.append(i)
+
 		print(eliminados)
 		print("Numero de entradas eliminadas: {}".format(contador))
+
+
+	def export_to_csv(self,output_path):  #Para que funcione a de modificarse la estructura de datos a solo aquello que nos importa
+		keys = self.master_database[0].keys()
+		with open(output_path, 'w') as output_file:
+			dict_writer = csv.DictWriter(output_file, keys)
+			dict_writer.writeheader()
+			dict_writer.writerows(self.master_database)
 
 
 	def review_speed(self):
 		output=[]
 		for x, y in zip(self.master_database[:-1], self.master_database[1:]):
 			pass
-
 
 
 ########################################################
@@ -139,7 +152,7 @@ def JsonParser1(lista, ruta_output):
 		if dic["_RAW"] != "":
 			try:
 				lon = convert_coordinates(dic["longitude"])  #Ocurre con valores vacios = ""
-				lat = convert_coordinates(dic["latitude"]) #PENDIENTE: En formato 2 lon y lat terminan con letras que impiden conversión
+				lat = convert_coordinates(dic["latitude"]) #PENDIENTE: En formato 2 lon y lat terminan con letras que impiden conversion
 				datatime = int(float(i["timestamp"]))
 				data_locaciones.append((lat,lon,datatime))
 			except:
@@ -171,7 +184,7 @@ def runParser(ruta, filtro=""):  # Correr el script de forma masiva en una carpe
 	for i in files:
 		if i[-5:] == ".json" and filtro in i:  #Reconozco aquellos archivos que son .json
 			with open(ruta+"/"+i, 'r') as database:
-				print("Abrí archivo {}".format(ruta+"/"+i))
+				print("Abri archivo {}".format(ruta+"/"+i))
 				content = cleanJson(database) #Lista de diccionarios, cada diccionario es un log
 				master_database += [json.loads(i) for i in content] #Lista de objetos JSON
 				contador+=1
@@ -180,14 +193,16 @@ def runParser(ruta, filtro=""):  # Correr el script de forma masiva en una carpe
 
 
 if __name__ == '__main__':
-	#x = JsonData()
-	#x.add_data("/Users/benjamimo1/Documents/AgroBolt/Data-test")
-	#x.clean_data() 
+	x = JsonData()
+	x.add_data("/Users/benjamimo1/Documents/AgroBolt/Data-test/Formato1-Limpio.json")
+	x.clean_data()
+	for i in x.gps_database:
+		print(i)
+	#x.export_to_csv("/Users/benjamimo1/Documents/AgroBolt/Data-test/output.csv")
 	#x.export_to_kml("/Users/benjamimo1/Documents/AgroBolt/Data-test")
 	#toCSV = [{'name':'bob','age':25,'weight':200},
          #{'name':'jim','age':31,'weight':180}]
 	#data_to_csv(toCSV,"/Users/benjamimo1/Documents/AgroBolt/Data-test/output.csv")
-
 
 
 #runParser("/Users/benjamimo1/Documents/AgroBolt/Data-test") FUNCIONANDO para limpio, sucio
