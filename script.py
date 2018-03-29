@@ -99,8 +99,8 @@ class JsonData():
 		print("Exporte archivo KML")
 
 
-	def add_data(self,ruta):  #Agregar el filtro de limpieza de data aca
-		if ruta[-5:] == ".json":
+	def add_data(self,ruta,filtro=""):  #Agregar el filtro de limpieza de data aca
+		if ruta[-5:] == ".json" and filtro in ruta:
 			with open(ruta, 'r') as content:
 				database = cleanJson(content) #Lista de diccionarios, cada diccionario es un log
 				self.master_database += [json.loads(i) for i in database] #Lista de objetos JSON
@@ -109,7 +109,7 @@ class JsonData():
 			files = [f for f in listdir(ruta) if isfile(join(ruta, f))]
 			contador = 0
 			for i in files:
-				if i[-5:] == ".json":  #Reconozco aquellos archivos que son .json
+				if i[-5:] == ".json" and filtro in i:  #Reconozco aquellos archivos que son .json
 					with open(ruta+"/"+i, 'r') as database:
 						print("Abri archivo {}".format(ruta+"/"+i))
 						content = cleanJson(database) #Lista de diccionarios, cada diccionario es un log
@@ -151,6 +151,7 @@ class JsonData():
 
 
 	def filter_by_id(self,identifier):
+		print("Filtre segun identifier: {}".format(identifier))
 		return [i for i in self.gps_database if i["identifier"]==identifier]  
 
 	def review(self,speed_limit, time_limit):
@@ -183,8 +184,9 @@ class JsonData():
 				if duplicated == True:
 					duplicated = False
 					redudant_data.pop()  #Teoricamente correcto
+		output = [i for i in self.gps_database if i not in redudant_data]
+		print("Numero de entradas redundantes: {}".format(len(redudant_data)))
 
-			output = (list(set(self.gps_database) - set(redudant_data))) #Data final con no repetidos
 
 if __name__ == '__main__':
 	x = JsonData()
@@ -194,8 +196,8 @@ if __name__ == '__main__':
 	#	print(i)
 	x.export_to_csv("/Users/benjamimo1/Documents/AgroBolt/Data-test/output.csv","gps")
 	x.export_to_kml("/Users/benjamimo1/Documents/AgroBolt/Data-test")
-	#x.review(40,10)
-	#print(x.filter_by_id("011"))
+	x.review(40,10)
+	#filtrado = x.filter_by_id("011")
 
 
 	#toCSV = [{'name':'bob','age':25,'weight':200},
