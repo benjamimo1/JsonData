@@ -61,8 +61,11 @@ class JsonData():
 				for sensor in i["sensors"]:
 					if sensor["sensorType"] == "GPS6000":
 						dic = sensor["data"]  #Aparentemente no siempre es el primero!
+						dic["identifier"] = sensor["sensorID"]
 			else:
 				dic = i["data"]  #Su longitud y latitud tienen una letra al final:
+				dic["identifier"] = i["sensorID"]
+
 
 			if dic["_RAW"] != "" and dic["valid"] in ["1","2","3","4","5"]:
 				dic["timestamp"]=i["timestamp"]
@@ -147,9 +150,14 @@ class JsonData():
 		print("Exporte la data a csv")
 
 
+	def filter_by_id(self,identifier):
+		return [i for i in self.gps_database if i["identifier"]==identifier]  
+
 	def review(self,speed_limit, time_limit):
 		output=[]
 		redudant_data=[]
+		duplicated = False
+
 		for x, y in zip(self.gps_database[:-1], self.gps_database[1:]):
 			delta_latitud = y["latitude"]-x["latitude"]
 			delta_longitude = y["longitude"]-x["longitude"]
@@ -167,12 +175,16 @@ class JsonData():
 			if x["utc"] == y["utc"]:
 				print("No se actualizó la data en {}, utc constante".format(x["timestamp"]))
 
+
 			if (x["latitude"],x["longitude"]) == (y["latitude"],y["longitude"]) and x["utc"] != y["utc"]:
-				#redudant_data.append(y) #Considerar que deben quedar al menos 2
+				duplicated = True
+				redudant_data.append(y) #Considerar que deben quedar al menos 2
+			else:
+				if duplicated == True:
+					duplicated = False
+					redudant_data.pop()  #Teoricamente correcto
 
-		#print(list(set(self.gps_database) - set(redudant_data))) #Data final con no repetidos
-
-
+			output = (list(set(self.gps_database) - set(redudant_data))) #Data final con no repetidos
 
 if __name__ == '__main__':
 	x = JsonData()
@@ -180,9 +192,10 @@ if __name__ == '__main__':
 	x.clean_data()
 	#for i in x.gps_database:
 	#	print(i)
-	#x.export_to_csv("/Users/benjamimo1/Documents/AgroBolt/Data-test/output.csv","gps")
+	x.export_to_csv("/Users/benjamimo1/Documents/AgroBolt/Data-test/output.csv","gps")
 	x.export_to_kml("/Users/benjamimo1/Documents/AgroBolt/Data-test")
-	x.review(40,10)
+	#x.review(40,10)
+	#print(x.filter_by_id("011"))
 
 
 	#toCSV = [{'name':'bob','age':25,'weight':200},
