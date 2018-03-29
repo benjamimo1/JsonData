@@ -4,6 +4,7 @@ import time
 import sys
 from os import listdir
 from os.path import isfile, join, isdir
+import csv
 
 
 def cleanJson(database):
@@ -29,8 +30,13 @@ def convert_coordinates(string):  #Transforma coordenadas con Orientacion al fin
 def remove_duplicates(x):  #Elimina duplicados de informacion (duplicados perfectos)
 	return list(set(x))
 
+
 def data_to_csv(data,output_path):
-	
+	keys = toCSV[0].keys()
+	with open(output_path, 'w') as output_file:
+		dict_writer = csv.DictWriter(output_file, keys)
+		dict_writer.writeheader()
+		dict_writer.writerows(data)
 
 
 class JsonData():
@@ -174,10 +180,13 @@ def runParser(ruta, filtro=""):  # Correr el script de forma masiva en una carpe
 
 
 if __name__ == '__main__':
-	x = JsonData()
-	x.add_data("/Users/benjamimo1/Documents/AgroBolt/Data-test")
-	x.clean_data() 
+	#x = JsonData()
+	#x.add_data("/Users/benjamimo1/Documents/AgroBolt/Data-test")
+	#x.clean_data() 
 	#x.export_to_kml("/Users/benjamimo1/Documents/AgroBolt/Data-test")
+	#toCSV = [{'name':'bob','age':25,'weight':200},
+         #{'name':'jim','age':31,'weight':180}]
+	#data_to_csv(toCSV,"/Users/benjamimo1/Documents/AgroBolt/Data-test/output.csv")
 
 
 
