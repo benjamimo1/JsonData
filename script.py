@@ -29,6 +29,9 @@ def convert_coordinates(string):  #Transforma coordenadas con Orientacion al fin
 def remove_duplicates(x):  #Elimina duplicados de informacion (duplicados perfectos)
 	return list(set(x))
 
+def data_to_csv(data,output_path):
+	
+
 
 class JsonData():
 	def __init__(self):
@@ -86,11 +89,26 @@ class JsonData():
 			print("Error al importar")
 
 
+	def clean_data(self):  #Export_Kml lo tiene incorporado, pero en caso de solo querer limpiar aca esta la funcion
+		contador=0
+		eliminados = []
+		for i in self.master_database:
+			if "sensors" in i.keys(): #Existen 2 formatos distintos 
+				dic = i["sensors"][0]["data"]  
+			else:
+				dic = i["data"]  #Su longitud y latitud tienen una letra al final
+			if dic["_RAW"] == "" or dic["valid"] != "1":
+				self.master_database.remove(i)
+				contador+=1
+				eliminados.append(i)
+		print(eliminados)
+		print("Numero de entradas eliminadas: {}".format(contador))
+
+
 	def review_speed(self):
 		output=[]
-		for v, w in zip(self.master_database[:-1], self.master_database[1:]):
-
-			
+		for x, y in zip(self.master_database[:-1], self.master_database[1:]):
+			pass
 
 
 
@@ -156,12 +174,10 @@ def runParser(ruta, filtro=""):  # Correr el script de forma masiva en una carpe
 
 
 if __name__ == '__main__':
-	#x = JsonData("/Users/benjamimo1/Documents/AgroBolt/Data-test/Formato1-Limpio.json") #1 file
-	#x = JsonData()
-	#x.add_data("/Users/benjamimo1/Documents/AgroBolt/Data-test")
+	x = JsonData()
+	x.add_data("/Users/benjamimo1/Documents/AgroBolt/Data-test")
+	x.clean_data() 
 	#x.export_to_kml("/Users/benjamimo1/Documents/AgroBolt/Data-test")
-
-	
 
 
 
