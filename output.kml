@@ -7,7 +7,7 @@
                 <when>2018-02-27T18:01:48Z</when>
             </TimeStamp>
             <Point id="geom_0">
-                <coordinates>-33.98903111833334,-70.69261551666666,0.0</coordinates>
+                <coordinates>-70.69261551666666,-33.98903111833334,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_3">
@@ -16,7 +16,7 @@
                 <when>2018-02-27T18:01:49Z</when>
             </TimeStamp>
             <Point id="geom_1">
-                <coordinates>-33.98907971,-70.69262808666667,0.0</coordinates>
+                <coordinates>-70.69262808666667,-33.98907971,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_4">
@@ -25,7 +25,7 @@
                 <when>2018-02-27T18:01:50Z</when>
             </TimeStamp>
             <Point id="geom_2">
-                <coordinates>-33.989128215,-70.692643145,0.0</coordinates>
+                <coordinates>-70.692643145,-33.989128215,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_5">
@@ -34,7 +34,7 @@
                 <when>2018-02-27T18:01:52Z</when>
             </TimeStamp>
             <Point id="geom_3">
-                <coordinates>-33.989212655,-70.69266968166667,0.0</coordinates>
+                <coordinates>-70.69266968166667,-33.989212655,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_6">
@@ -43,7 +43,7 @@
                 <when>2018-02-27T18:01:53Z</when>
             </TimeStamp>
             <Point id="geom_4">
-                <coordinates>-33.98923925166667,-70.69267801833334,0.0</coordinates>
+                <coordinates>-70.69267801833334,-33.98923925166667,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_7">
@@ -52,7 +52,7 @@
                 <when>2018-02-27T18:01:54Z</when>
             </TimeStamp>
             <Point id="geom_5">
-                <coordinates>-33.98928851666667,-70.69269254833333,0.0</coordinates>
+                <coordinates>-70.69269254833333,-33.98928851666667,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_8">
@@ -61,7 +61,7 @@
                 <when>2018-02-27T18:01:55Z</when>
             </TimeStamp>
             <Point id="geom_6">
-                <coordinates>-33.989346743333336,-70.69270816333334,0.0</coordinates>
+                <coordinates>-70.69270816333334,-33.989346743333336,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_9">
@@ -70,7 +70,7 @@
                 <when>2018-02-27T18:01:56Z</when>
             </TimeStamp>
             <Point id="geom_7">
-                <coordinates>-33.989382488333334,-70.69271693833333,0.0</coordinates>
+                <coordinates>-70.69271693833333,-33.989382488333334,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_10">
@@ -79,7 +79,7 @@
                 <when>2018-02-27T18:01:58Z</when>
             </TimeStamp>
             <Point id="geom_8">
-                <coordinates>-33.98944298166667,-70.69273688666667,0.0</coordinates>
+                <coordinates>-70.69273688666667,-33.98944298166667,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_11">
@@ -88,7 +88,7 @@
                 <when>2018-02-27T18:01:59Z</when>
             </TimeStamp>
             <Point id="geom_9">
-                <coordinates>-33.989468045,-70.69274467666666,0.0</coordinates>
+                <coordinates>-70.69274467666666,-33.989468045,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_12">
@@ -97,7 +97,7 @@
                 <when>2018-02-27T18:02:00Z</when>
             </TimeStamp>
             <Point id="geom_10">
-                <coordinates>-33.989548316666664,-70.69276568333333,0.0</coordinates>
+                <coordinates>-70.69276568333333,-33.989548316666664,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_13">
@@ -106,7 +106,7 @@
                 <when>2018-02-27T18:02:01Z</when>
             </TimeStamp>
             <Point id="geom_11">
-                <coordinates>-33.989620725,-70.69278012,0.0</coordinates>
+                <coordinates>-70.69278012,-33.989620725,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_14">
@@ -115,7 +115,7 @@
                 <when>2018-02-27T18:02:02Z</when>
             </TimeStamp>
             <Point id="geom_12">
-                <coordinates>-33.989667856666664,-70.69278828333333,0.0</coordinates>
+                <coordinates>-70.69278828333333,-33.989667856666664,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_15">
@@ -124,7 +124,7 @@
                 <when>2018-02-27T18:02:03Z</when>
             </TimeStamp>
             <Point id="geom_13">
-                <coordinates>-33.989710585,-70.69279214,0.0</coordinates>
+                <coordinates>-70.69279214,-33.989710585,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_16">
@@ -133,7 +133,7 @@
                 <when>2018-02-27T18:02:04Z</when>
             </TimeStamp>
             <Point id="geom_14">
-                <coordinates>-33.989757275,-70.69278791333333,0.0</coordinates>
+                <coordinates>-70.69278791333333,-33.989757275,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_17">
@@ -142,7 +142,7 @@
                 <when>2018-02-27T18:02:06Z</when>
             </TimeStamp>
             <Point id="geom_15">
-                <coordinates>-33.989789545,-70.69277846,0.0</coordinates>
+                <coordinates>-70.69277846,-33.989789545,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_18">
@@ -151,7 +151,7 @@
                 <when>2018-02-27T18:02:07Z</when>
             </TimeStamp>
             <Point id="geom_16">
-                <coordinates>-33.98984219333333,-70.692748065,0.0</coordinates>
+                <coordinates>-70.692748065,-33.98984219333333,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_19">
@@ -160,7 +160,7 @@
                 <when>2018-02-27T18:02:08Z</when>
             </TimeStamp>
             <Point id="geom_17">
-                <coordinates>-33.989877918333335,-70.69272126166666,0.0</coordinates>
+                <coordinates>-70.69272126166666,-33.989877918333335,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_20">
@@ -169,7 +169,7 @@
                 <when>2018-02-27T18:02:09Z</when>
             </TimeStamp>
             <Point id="geom_18">
-                <coordinates>-33.989911025,-70.69268980666666,0.0</coordinates>
+                <coordinates>-70.69268980666666,-33.989911025,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_21">
@@ -178,7 +178,7 @@
                 <when>2018-02-27T18:02:10Z</when>
             </TimeStamp>
             <Point id="geom_19">
-                <coordinates>-33.989945935,-70.692663265,0.0</coordinates>
+                <coordinates>-70.692663265,-33.989945935,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_22">
@@ -187,7 +187,7 @@
                 <when>2018-02-27T18:02:11Z</when>
             </TimeStamp>
             <Point id="geom_20">
-                <coordinates>-33.98998848833333,-70.69263997,0.0</coordinates>
+                <coordinates>-70.69263997,-33.98998848833333,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_23">
@@ -196,7 +196,7 @@
                 <when>2018-02-27T18:02:12Z</when>
             </TimeStamp>
             <Point id="geom_21">
-                <coordinates>-33.99001522,-70.692633895,0.0</coordinates>
+                <coordinates>-70.692633895,-33.99001522,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_24">
@@ -205,7 +205,7 @@
                 <when>2018-02-27T18:02:13Z</when>
             </TimeStamp>
             <Point id="geom_22">
-                <coordinates>-33.990039036666666,-70.69263314833333,0.0</coordinates>
+                <coordinates>-70.69263314833333,-33.990039036666666,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_25">
@@ -214,7 +214,7 @@
                 <when>2018-02-27T18:02:14Z</when>
             </TimeStamp>
             <Point id="geom_23">
-                <coordinates>-33.99007097166667,-70.69263794833333,0.0</coordinates>
+                <coordinates>-70.69263794833333,-33.99007097166667,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_26">
@@ -223,7 +223,7 @@
                 <when>2018-02-27T18:02:15Z</when>
             </TimeStamp>
             <Point id="geom_24">
-                <coordinates>-33.99009955,-70.69264443,0.0</coordinates>
+                <coordinates>-70.69264443,-33.99009955,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_27">
@@ -232,7 +232,7 @@
                 <when>2018-02-27T18:02:17Z</when>
             </TimeStamp>
             <Point id="geom_25">
-                <coordinates>-33.99014742166667,-70.69265576166667,0.0</coordinates>
+                <coordinates>-70.69265576166667,-33.99014742166667,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_28">
@@ -241,7 +241,7 @@
                 <when>2018-02-27T18:02:18Z</when>
             </TimeStamp>
             <Point id="geom_26">
-                <coordinates>-33.99017426333333,-70.692662065,0.0</coordinates>
+                <coordinates>-70.692662065,-33.99017426333333,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_29">
@@ -250,7 +250,7 @@
                 <when>2018-02-27T18:02:19Z</when>
             </TimeStamp>
             <Point id="geom_27">
-                <coordinates>-33.99021639666667,-70.69267308666667,0.0</coordinates>
+                <coordinates>-70.69267308666667,-33.99021639666667,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_30">
@@ -259,7 +259,7 @@
                 <when>2018-02-27T18:02:20Z</when>
             </TimeStamp>
             <Point id="geom_28">
-                <coordinates>-33.99026893166667,-70.69268376666666,0.0</coordinates>
+                <coordinates>-70.69268376666666,-33.99026893166667,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_31">
@@ -268,7 +268,7 @@
                 <when>2018-02-27T18:02:21Z</when>
             </TimeStamp>
             <Point id="geom_29">
-                <coordinates>-33.99043935666667,-70.69272183833333,0.0</coordinates>
+                <coordinates>-70.69272183833333,-33.99043935666667,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_32">
@@ -277,7 +277,7 @@
                 <when>2018-02-27T18:02:22Z</when>
             </TimeStamp>
             <Point id="geom_30">
-                <coordinates>-33.99048676,-70.69273283666666,0.0</coordinates>
+                <coordinates>-70.69273283666666,-33.99048676,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_33">
@@ -286,7 +286,7 @@
                 <when>2018-02-27T18:02:23Z</when>
             </TimeStamp>
             <Point id="geom_31">
-                <coordinates>-33.99053387,-70.69274467166667,0.0</coordinates>
+                <coordinates>-70.69274467166667,-33.99053387,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_34">
@@ -295,7 +295,7 @@
                 <when>2018-02-27T18:02:24Z</when>
             </TimeStamp>
             <Point id="geom_32">
-                <coordinates>-33.99058086833333,-70.69275462833333,0.0</coordinates>
+                <coordinates>-70.69275462833333,-33.99058086833333,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_35">
@@ -304,7 +304,7 @@
                 <when>2018-02-27T18:02:26Z</when>
             </TimeStamp>
             <Point id="geom_33">
-                <coordinates>-33.99065123,-70.69277091166667,0.0</coordinates>
+                <coordinates>-70.69277091166667,-33.99065123,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_36">
@@ -313,7 +313,7 @@
                 <when>2018-02-27T18:02:27Z</when>
             </TimeStamp>
             <Point id="geom_34">
-                <coordinates>-33.990703165,-70.69278227833334,0.0</coordinates>
+                <coordinates>-70.69278227833334,-33.990703165,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_37">
@@ -322,7 +322,7 @@
                 <when>2018-02-27T18:02:28Z</when>
             </TimeStamp>
             <Point id="geom_35">
-                <coordinates>-33.99075049,-70.69279183833333,0.0</coordinates>
+                <coordinates>-70.69279183833333,-33.99075049,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_38">
@@ -331,7 +331,7 @@
                 <when>2018-02-27T18:02:29Z</when>
             </TimeStamp>
             <Point id="geom_36">
-                <coordinates>-33.990802396666666,-70.69280294833334,0.0</coordinates>
+                <coordinates>-70.69280294833334,-33.990802396666666,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_39">
@@ -340,7 +340,7 @@
                 <when>2018-02-27T18:02:30Z</when>
             </TimeStamp>
             <Point id="geom_37">
-                <coordinates>-33.990844575,-70.692813055,0.0</coordinates>
+                <coordinates>-70.692813055,-33.990844575,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_40">
@@ -349,7 +349,7 @@
                 <when>2018-02-27T18:02:31Z</when>
             </TimeStamp>
             <Point id="geom_38">
-                <coordinates>-33.990895908333336,-70.692825865,0.0</coordinates>
+                <coordinates>-70.692825865,-33.990895908333336,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_41">
@@ -358,7 +358,7 @@
                 <when>2018-02-27T18:02:32Z</when>
             </TimeStamp>
             <Point id="geom_39">
-                <coordinates>-33.99094743333333,-70.692837565,0.0</coordinates>
+                <coordinates>-70.692837565,-33.99094743333333,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_42">
@@ -367,7 +367,7 @@
                 <when>2018-02-27T18:02:33Z</when>
             </TimeStamp>
             <Point id="geom_40">
-                <coordinates>-33.990998991666665,-70.692848595,0.0</coordinates>
+                <coordinates>-70.692848595,-33.990998991666665,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_43">
@@ -376,7 +376,7 @@
                 <when>2018-02-27T18:02:34Z</when>
             </TimeStamp>
             <Point id="geom_41">
-                <coordinates>-33.991045925,-70.69285859,0.0</coordinates>
+                <coordinates>-70.69285859,-33.991045925,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_44">
@@ -385,7 +385,7 @@
                 <when>2018-02-27T18:02:35Z</when>
             </TimeStamp>
             <Point id="geom_42">
-                <coordinates>-33.991088141666665,-70.69286676166666,0.0</coordinates>
+                <coordinates>-70.69286676166666,-33.991088141666665,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_45">
@@ -394,7 +394,7 @@
                 <when>2018-02-27T18:02:36Z</when>
             </TimeStamp>
             <Point id="geom_43">
-                <coordinates>-33.99113022833333,-70.69287617333333,0.0</coordinates>
+                <coordinates>-70.69287617333333,-33.99113022833333,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_46">
@@ -403,7 +403,7 @@
                 <when>2018-02-27T18:02:37Z</when>
             </TimeStamp>
             <Point id="geom_44">
-                <coordinates>-33.99119094833333,-70.69288883,0.0</coordinates>
+                <coordinates>-70.69288883,-33.99119094833333,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_47">
@@ -412,7 +412,7 @@
                 <when>2018-02-27T18:02:38Z</when>
             </TimeStamp>
             <Point id="geom_45">
-                <coordinates>-33.99123664166667,-70.69289976666667,0.0</coordinates>
+                <coordinates>-70.69289976666667,-33.99123664166667,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_48">
@@ -421,7 +421,7 @@
                 <when>2018-02-27T18:02:39Z</when>
             </TimeStamp>
             <Point id="geom_46">
-                <coordinates>-33.991282203333334,-70.69291047166666,0.0</coordinates>
+                <coordinates>-70.69291047166666,-33.991282203333334,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_49">
@@ -430,7 +430,7 @@
                 <when>2018-02-27T18:02:40Z</when>
             </TimeStamp>
             <Point id="geom_47">
-                <coordinates>-33.9913232,-70.69291957166666,0.0</coordinates>
+                <coordinates>-70.69291957166666,-33.9913232,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_50">
@@ -439,7 +439,7 @@
                 <when>2018-02-27T18:02:41Z</when>
             </TimeStamp>
             <Point id="geom_48">
-                <coordinates>-33.99137371,-70.69293059,0.0</coordinates>
+                <coordinates>-70.69293059,-33.99137371,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_51">
@@ -448,7 +448,7 @@
                 <when>2018-02-27T18:02:42Z</when>
             </TimeStamp>
             <Point id="geom_49">
-                <coordinates>-33.99142009166667,-70.69293972166666,0.0</coordinates>
+                <coordinates>-70.69293972166666,-33.99142009166667,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_52">
@@ -457,7 +457,7 @@
                 <when>2018-02-27T18:02:43Z</when>
             </TimeStamp>
             <Point id="geom_50">
-                <coordinates>-33.991466358333334,-70.69294943666667,0.0</coordinates>
+                <coordinates>-70.69294943666667,-33.991466358333334,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_53">
@@ -466,7 +466,7 @@
                 <when>2018-02-27T18:02:44Z</when>
             </TimeStamp>
             <Point id="geom_51">
-                <coordinates>-33.99151249166667,-70.69295949833334,0.0</coordinates>
+                <coordinates>-70.69295949833334,-33.99151249166667,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_54">
@@ -475,7 +475,7 @@
                 <when>2018-02-27T18:02:45Z</when>
             </TimeStamp>
             <Point id="geom_52">
-                <coordinates>-33.991558678333334,-70.69296998166666,0.0</coordinates>
+                <coordinates>-70.69296998166666,-33.991558678333334,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_55">
@@ -484,7 +484,7 @@
                 <when>2018-02-27T18:02:46Z</when>
             </TimeStamp>
             <Point id="geom_53">
-                <coordinates>-33.991595583333336,-70.69297808666667,0.0</coordinates>
+                <coordinates>-70.69297808666667,-33.991595583333336,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_56">
@@ -493,7 +493,7 @@
                 <when>2018-02-27T18:02:47Z</when>
             </TimeStamp>
             <Point id="geom_54">
-                <coordinates>-33.99164154,-70.69298872166667,0.0</coordinates>
+                <coordinates>-70.69298872166667,-33.99164154,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_57">
@@ -502,7 +502,7 @@
                 <when>2018-02-27T18:02:49Z</when>
             </TimeStamp>
             <Point id="geom_55">
-                <coordinates>-33.991687731666666,-70.69299944166667,0.0</coordinates>
+                <coordinates>-70.69299944166667,-33.991687731666666,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_58">
@@ -511,7 +511,7 @@
                 <when>2018-02-27T18:02:50Z</when>
             </TimeStamp>
             <Point id="geom_56">
-                <coordinates>-33.99175242166667,-70.693014355,0.0</coordinates>
+                <coordinates>-70.693014355,-33.99175242166667,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_59">
@@ -520,7 +520,7 @@
                 <when>2018-02-27T18:02:51Z</when>
             </TimeStamp>
             <Point id="geom_57">
-                <coordinates>-33.991802918333335,-70.693027135,0.0</coordinates>
+                <coordinates>-70.693027135,-33.991802918333335,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_60">
@@ -529,7 +529,7 @@
                 <when>2018-02-27T18:02:52Z</when>
             </TimeStamp>
             <Point id="geom_58">
-                <coordinates>-33.99186266,-70.69303781,0.0</coordinates>
+                <coordinates>-70.69303781,-33.99186266,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_61">
@@ -538,7 +538,7 @@
                 <when>2018-02-27T18:02:53Z</when>
             </TimeStamp>
             <Point id="geom_59">
-                <coordinates>-33.99190885,-70.69304687166667,0.0</coordinates>
+                <coordinates>-70.69304687166667,-33.99190885,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_62">
@@ -547,7 +547,7 @@
                 <when>2018-02-27T18:02:54Z</when>
             </TimeStamp>
             <Point id="geom_60">
-                <coordinates>-33.99195928666666,-70.69305763333334,0.0</coordinates>
+                <coordinates>-70.69305763333334,-33.99195928666666,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_63">
@@ -556,7 +556,7 @@
                 <when>2018-02-27T18:02:55Z</when>
             </TimeStamp>
             <Point id="geom_61">
-                <coordinates>-33.99200475333333,-70.69306885666667,0.0</coordinates>
+                <coordinates>-70.69306885666667,-33.99200475333333,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_64">
@@ -565,7 +565,7 @@
                 <when>2018-02-27T18:02:56Z</when>
             </TimeStamp>
             <Point id="geom_62">
-                <coordinates>-33.99204985666667,-70.69308121,0.0</coordinates>
+                <coordinates>-70.69308121,-33.99204985666667,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_65">
@@ -574,7 +574,7 @@
                 <when>2018-02-27T18:02:57Z</when>
             </TimeStamp>
             <Point id="geom_63">
-                <coordinates>-33.992093515,-70.69309227333333,0.0</coordinates>
+                <coordinates>-70.69309227333333,-33.992093515,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_66">
@@ -583,7 +583,7 @@
                 <when>2018-02-27T18:02:58Z</when>
             </TimeStamp>
             <Point id="geom_64">
-                <coordinates>-33.992133966666664,-70.69310231833333,0.0</coordinates>
+                <coordinates>-70.69310231833333,-33.992133966666664,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_67">
@@ -592,7 +592,7 @@
                 <when>2018-02-27T18:02:59Z</when>
             </TimeStamp>
             <Point id="geom_65">
-                <coordinates>-33.99216521333334,-70.693110135,0.0</coordinates>
+                <coordinates>-70.693110135,-33.99216521333334,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_68">
@@ -601,7 +601,7 @@
                 <when>2018-02-27T18:03:00Z</when>
             </TimeStamp>
             <Point id="geom_66">
-                <coordinates>-33.992194025,-70.69311762833334,0.0</coordinates>
+                <coordinates>-70.69311762833334,-33.992194025,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_69">
@@ -610,7 +610,7 @@
                 <when>2018-02-27T18:03:01Z</when>
             </TimeStamp>
             <Point id="geom_67">
-                <coordinates>-33.99225160833333,-70.69312719166666,0.0</coordinates>
+                <coordinates>-70.69312719166666,-33.99225160833333,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_70">
@@ -619,7 +619,7 @@
                 <when>2018-02-27T18:03:02Z</when>
             </TimeStamp>
             <Point id="geom_68">
-                <coordinates>-33.99228783,-70.69313152166667,0.0</coordinates>
+                <coordinates>-70.69313152166667,-33.99228783,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_71">
@@ -628,7 +628,7 @@
                 <when>2018-02-27T18:03:03Z</when>
             </TimeStamp>
             <Point id="geom_69">
-                <coordinates>-33.992330515,-70.69314290666667,0.0</coordinates>
+                <coordinates>-70.69314290666667,-33.992330515,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_72">
@@ -637,7 +637,7 @@
                 <when>2018-02-27T18:03:04Z</when>
             </TimeStamp>
             <Point id="geom_70">
-                <coordinates>-33.99236253666667,-70.69315088833334,0.0</coordinates>
+                <coordinates>-70.69315088833334,-33.99236253666667,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_73">
@@ -646,7 +646,7 @@
                 <when>2018-02-27T18:03:05Z</when>
             </TimeStamp>
             <Point id="geom_71">
-                <coordinates>-33.99238799333333,-70.69315554166667,0.0</coordinates>
+                <coordinates>-70.69315554166667,-33.99238799333333,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_74">
@@ -655,7 +655,7 @@
                 <when>2018-02-27T18:03:07Z</when>
             </TimeStamp>
             <Point id="geom_72">
-                <coordinates>-33.992433741666666,-70.69316352833333,0.0</coordinates>
+                <coordinates>-70.69316352833333,-33.992433741666666,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_75">
@@ -664,7 +664,7 @@
                 <when>2018-02-27T18:03:08Z</when>
             </TimeStamp>
             <Point id="geom_73">
-                <coordinates>-33.99245685166667,-70.69316547166666,0.0</coordinates>
+                <coordinates>-70.69316547166666,-33.99245685166667,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_76">
@@ -673,7 +673,7 @@
                 <when>2018-02-27T18:03:09Z</when>
             </TimeStamp>
             <Point id="geom_74">
-                <coordinates>-33.992514076666666,-70.69315836333334,0.0</coordinates>
+                <coordinates>-70.69315836333334,-33.992514076666666,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_77">
@@ -682,7 +682,7 @@
                 <when>2018-02-27T18:03:10Z</when>
             </TimeStamp>
             <Point id="geom_75">
-                <coordinates>-33.99253659833333,-70.69314961,0.0</coordinates>
+                <coordinates>-70.69314961,-33.99253659833333,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_78">
@@ -691,7 +691,7 @@
                 <when>2018-02-27T18:03:11Z</when>
             </TimeStamp>
             <Point id="geom_76">
-                <coordinates>-33.99255715166667,-70.69314370666666,0.0</coordinates>
+                <coordinates>-70.69314370666666,-33.99255715166667,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_79">
@@ -700,7 +700,7 @@
                 <when>2018-02-27T18:03:12Z</when>
             </TimeStamp>
             <Point id="geom_77">
-                <coordinates>-33.992574185,-70.69314307,0.0</coordinates>
+                <coordinates>-70.69314307,-33.992574185,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_80">
@@ -709,7 +709,7 @@
                 <when>2018-02-27T18:03:13Z</when>
             </TimeStamp>
             <Point id="geom_78">
-                <coordinates>-33.992596295,-70.69314324,0.0</coordinates>
+                <coordinates>-70.69314324,-33.992596295,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_81">
@@ -718,7 +718,7 @@
                 <when>2018-02-27T18:03:14Z</when>
             </TimeStamp>
             <Point id="geom_79">
-                <coordinates>-33.99261569833333,-70.693142275,0.0</coordinates>
+                <coordinates>-70.693142275,-33.99261569833333,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_82">
@@ -727,7 +727,7 @@
                 <when>2018-02-27T18:03:15Z</when>
             </TimeStamp>
             <Point id="geom_80">
-                <coordinates>-33.99263848333333,-70.69314062666666,0.0</coordinates>
+                <coordinates>-70.69314062666666,-33.99263848333333,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_83">
@@ -736,7 +736,7 @@
                 <when>2018-02-27T18:03:16Z</when>
             </TimeStamp>
             <Point id="geom_81">
-                <coordinates>-33.992666721666666,-70.69314073166667,0.0</coordinates>
+                <coordinates>-70.69314073166667,-33.992666721666666,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_84">
@@ -745,7 +745,7 @@
                 <when>2018-02-27T18:03:17Z</when>
             </TimeStamp>
             <Point id="geom_82">
-                <coordinates>-33.99269919333334,-70.69314124833333,0.0</coordinates>
+                <coordinates>-70.69314124833333,-33.99269919333334,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_85">
@@ -754,7 +754,7 @@
                 <when>2018-02-27T18:03:18Z</when>
             </TimeStamp>
             <Point id="geom_83">
-                <coordinates>-33.992732355,-70.69314304833334,0.0</coordinates>
+                <coordinates>-70.69314304833334,-33.992732355,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_86">
@@ -763,7 +763,7 @@
                 <when>2018-02-27T18:03:19Z</when>
             </TimeStamp>
             <Point id="geom_84">
-                <coordinates>-33.992775138333336,-70.69314297166666,0.0</coordinates>
+                <coordinates>-70.69314297166666,-33.992775138333336,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_87">
@@ -772,7 +772,7 @@
                 <when>2018-02-27T18:03:20Z</when>
             </TimeStamp>
             <Point id="geom_85">
-                <coordinates>-33.99281567166667,-70.693143075,0.0</coordinates>
+                <coordinates>-70.693143075,-33.99281567166667,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_88">
@@ -781,7 +781,7 @@
                 <when>2018-02-27T18:03:21Z</when>
             </TimeStamp>
             <Point id="geom_86">
-                <coordinates>-33.99286106666667,-70.69314510666666,0.0</coordinates>
+                <coordinates>-70.69314510666666,-33.99286106666667,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_89">
@@ -790,7 +790,7 @@
                 <when>2018-02-27T18:03:22Z</when>
             </TimeStamp>
             <Point id="geom_87">
-                <coordinates>-33.992911441666664,-70.693146415,0.0</coordinates>
+                <coordinates>-70.693146415,-33.992911441666664,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_90">
@@ -799,7 +799,7 @@
                 <when>2018-02-27T18:03:23Z</when>
             </TimeStamp>
             <Point id="geom_88">
-                <coordinates>-33.992957376666666,-70.69314864833333,0.0</coordinates>
+                <coordinates>-70.69314864833333,-33.992957376666666,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_91">
@@ -808,7 +808,7 @@
                 <when>2018-02-27T18:03:24Z</when>
             </TimeStamp>
             <Point id="geom_89">
-                <coordinates>-33.992998995,-70.69315107833333,0.0</coordinates>
+                <coordinates>-70.69315107833333,-33.992998995,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_92">
@@ -817,7 +817,7 @@
                 <when>2018-02-27T18:03:25Z</when>
             </TimeStamp>
             <Point id="geom_90">
-                <coordinates>-33.99304069,-70.69315167666667,0.0</coordinates>
+                <coordinates>-70.69315167666667,-33.99304069,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_93">
@@ -826,7 +826,7 @@
                 <when>2018-02-27T18:03:27Z</when>
             </TimeStamp>
             <Point id="geom_91">
-                <coordinates>-33.99321419666666,-70.69315851,0.0</coordinates>
+                <coordinates>-70.69315851,-33.99321419666666,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_94">
@@ -835,7 +835,7 @@
                 <when>2018-02-27T18:03:29Z</when>
             </TimeStamp>
             <Point id="geom_92">
-                <coordinates>-33.993266385,-70.69315970333334,0.0</coordinates>
+                <coordinates>-70.69315970333334,-33.993266385,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_95">
@@ -844,7 +844,7 @@
                 <when>2018-02-27T18:03:30Z</when>
             </TimeStamp>
             <Point id="geom_93">
-                <coordinates>-33.99330454166667,-70.69316098833333,0.0</coordinates>
+                <coordinates>-70.69316098833333,-33.99330454166667,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_96">
@@ -853,7 +853,7 @@
                 <when>2018-02-27T18:03:31Z</when>
             </TimeStamp>
             <Point id="geom_94">
-                <coordinates>-33.99334255,-70.69316298333334,0.0</coordinates>
+                <coordinates>-70.69316298333334,-33.99334255,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_97">
@@ -862,7 +862,7 @@
                 <when>2018-02-27T18:03:32Z</when>
             </TimeStamp>
             <Point id="geom_95">
-                <coordinates>-33.99338528,-70.69316552,0.0</coordinates>
+                <coordinates>-70.69316552,-33.99338528,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_98">
@@ -871,7 +871,7 @@
                 <when>2018-02-27T18:03:33Z</when>
             </TimeStamp>
             <Point id="geom_96">
-                <coordinates>-33.99342790666667,-70.69316783333333,0.0</coordinates>
+                <coordinates>-70.69316783333333,-33.99342790666667,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_99">
@@ -880,7 +880,7 @@
                 <when>2018-02-27T18:03:34Z</when>
             </TimeStamp>
             <Point id="geom_97">
-                <coordinates>-33.99347521833333,-70.693169065,0.0</coordinates>
+                <coordinates>-70.693169065,-33.99347521833333,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_100">
@@ -889,7 +889,7 @@
                 <when>2018-02-27T18:03:35Z</when>
             </TimeStamp>
             <Point id="geom_98">
-                <coordinates>-33.993589055,-70.693170915,0.0</coordinates>
+                <coordinates>-70.693170915,-33.993589055,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_101">
@@ -898,7 +898,7 @@
                 <when>2018-02-27T18:03:37Z</when>
             </TimeStamp>
             <Point id="geom_99">
-                <coordinates>-33.993641403333335,-70.69317209166667,0.0</coordinates>
+                <coordinates>-70.69317209166667,-33.993641403333335,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_102">
@@ -907,7 +907,7 @@
                 <when>2018-02-27T18:03:38Z</when>
             </TimeStamp>
             <Point id="geom_100">
-                <coordinates>-33.993688963333334,-70.69317261,0.0</coordinates>
+                <coordinates>-70.69317261,-33.993688963333334,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_103">
@@ -916,7 +916,7 @@
                 <when>2018-02-27T18:03:39Z</when>
             </TimeStamp>
             <Point id="geom_101">
-                <coordinates>-33.99373663833333,-70.69317534666666,0.0</coordinates>
+                <coordinates>-70.69317534666666,-33.99373663833333,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_104">
@@ -925,7 +925,7 @@
                 <when>2018-02-27T18:03:40Z</when>
             </TimeStamp>
             <Point id="geom_102">
-                <coordinates>-33.993784303333335,-70.69317841666667,0.0</coordinates>
+                <coordinates>-70.69317841666667,-33.993784303333335,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_105">
@@ -934,7 +934,7 @@
                 <when>2018-02-27T18:03:41Z</when>
             </TimeStamp>
             <Point id="geom_103">
-                <coordinates>-33.993832123333334,-70.69318022833333,0.0</coordinates>
+                <coordinates>-70.69318022833333,-33.993832123333334,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_106">
@@ -943,7 +943,7 @@
                 <when>2018-02-27T18:03:42Z</when>
             </TimeStamp>
             <Point id="geom_104">
-                <coordinates>-33.993875175,-70.69318311666666,0.0</coordinates>
+                <coordinates>-70.69318311666666,-33.993875175,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_107">
@@ -952,7 +952,7 @@
                 <when>2018-02-27T18:03:43Z</when>
             </TimeStamp>
             <Point id="geom_105">
-                <coordinates>-33.99392786833333,-70.69318528,0.0</coordinates>
+                <coordinates>-70.69318528,-33.99392786833333,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_108">
@@ -961,7 +961,7 @@
                 <when>2018-02-27T18:03:44Z</when>
             </TimeStamp>
             <Point id="geom_106">
-                <coordinates>-33.99397582333334,-70.693185385,0.0</coordinates>
+                <coordinates>-70.693185385,-33.99397582333334,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_109">
@@ -970,7 +970,7 @@
                 <when>2018-02-27T18:03:45Z</when>
             </TimeStamp>
             <Point id="geom_107">
-                <coordinates>-33.99403322166667,-70.6931876,0.0</coordinates>
+                <coordinates>-70.6931876,-33.99403322166667,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_110">
@@ -979,7 +979,7 @@
                 <when>2018-02-27T18:03:46Z</when>
             </TimeStamp>
             <Point id="geom_108">
-                <coordinates>-33.99408102666666,-70.69318829166667,0.0</coordinates>
+                <coordinates>-70.69318829166667,-33.99408102666666,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_111">
@@ -988,7 +988,7 @@
                 <when>2018-02-27T18:03:47Z</when>
             </TimeStamp>
             <Point id="geom_109">
-                <coordinates>-33.994129013333335,-70.69318970333333,0.0</coordinates>
+                <coordinates>-70.69318970333333,-33.994129013333335,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_112">
@@ -997,7 +997,7 @@
                 <when>2018-02-27T18:03:48Z</when>
             </TimeStamp>
             <Point id="geom_110">
-                <coordinates>-33.99417212666667,-70.69319115166667,0.0</coordinates>
+                <coordinates>-70.69319115166667,-33.99417212666667,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_113">
@@ -1006,7 +1006,7 @@
                 <when>2018-02-27T18:03:49Z</when>
             </TimeStamp>
             <Point id="geom_111">
-                <coordinates>-33.99421480833333,-70.69319158333333,0.0</coordinates>
+                <coordinates>-70.69319158333333,-33.99421480833333,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_114">
@@ -1015,7 +1015,7 @@
                 <when>2018-02-27T18:03:50Z</when>
             </TimeStamp>
             <Point id="geom_112">
-                <coordinates>-33.994262793333334,-70.693192325,0.0</coordinates>
+                <coordinates>-70.693192325,-33.994262793333334,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_115">
@@ -1024,7 +1024,7 @@
                 <when>2018-02-27T18:03:51Z</when>
             </TimeStamp>
             <Point id="geom_113">
-                <coordinates>-33.99430592666667,-70.693194495,0.0</coordinates>
+                <coordinates>-70.693194495,-33.99430592666667,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_116">
@@ -1033,7 +1033,7 @@
                 <when>2018-02-27T18:03:53Z</when>
             </TimeStamp>
             <Point id="geom_114">
-                <coordinates>-33.994358778333336,-70.69319618,0.0</coordinates>
+                <coordinates>-70.69319618,-33.994358778333336,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_117">
@@ -1042,7 +1042,7 @@
                 <when>2018-02-27T18:03:54Z</when>
             </TimeStamp>
             <Point id="geom_115">
-                <coordinates>-33.99441626,-70.693197545,0.0</coordinates>
+                <coordinates>-70.693197545,-33.99441626,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_118">
@@ -1051,7 +1051,7 @@
                 <when>2018-02-27T18:03:55Z</when>
             </TimeStamp>
             <Point id="geom_116">
-                <coordinates>-33.99445944833333,-70.69319955833333,0.0</coordinates>
+                <coordinates>-70.69319955833333,-33.99445944833333,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_119">
@@ -1060,7 +1060,7 @@
                 <when>2018-02-27T18:03:56Z</when>
             </TimeStamp>
             <Point id="geom_117">
-                <coordinates>-33.99449751,-70.69320187166667,0.0</coordinates>
+                <coordinates>-70.69320187166667,-33.99449751,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_120">
@@ -1069,7 +1069,7 @@
                 <when>2018-02-27T18:03:57Z</when>
             </TimeStamp>
             <Point id="geom_118">
-                <coordinates>-33.994540215,-70.69320479833334,0.0</coordinates>
+                <coordinates>-70.69320479833334,-33.994540215,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_121">
@@ -1078,7 +1078,7 @@
                 <when>2018-02-27T18:03:59Z</when>
             </TimeStamp>
             <Point id="geom_119">
-                <coordinates>-33.99476704,-70.693211115,0.0</coordinates>
+                <coordinates>-70.693211115,-33.99476704,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_122">
@@ -1087,7 +1087,7 @@
                 <when>2018-02-27T18:04:01Z</when>
             </TimeStamp>
             <Point id="geom_120">
-                <coordinates>-33.994814405,-70.69321204333333,0.0</coordinates>
+                <coordinates>-70.69321204333333,-33.994814405,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_123">
@@ -1096,7 +1096,7 @@
                 <when>2018-02-27T18:04:02Z</when>
             </TimeStamp>
             <Point id="geom_121">
-                <coordinates>-33.99486640666667,-70.69321421666666,0.0</coordinates>
+                <coordinates>-70.69321421666666,-33.99486640666667,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_124">
@@ -1105,7 +1105,7 @@
                 <when>2018-02-27T18:04:03Z</when>
             </TimeStamp>
             <Point id="geom_122">
-                <coordinates>-33.994913473333334,-70.69321624,0.0</coordinates>
+                <coordinates>-70.69321624,-33.994913473333334,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_125">
@@ -1114,7 +1114,7 @@
                 <when>2018-02-27T18:04:04Z</when>
             </TimeStamp>
             <Point id="geom_123">
-                <coordinates>-33.99496516333333,-70.69321836333333,0.0</coordinates>
+                <coordinates>-70.69321836333333,-33.99496516333333,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_126">
@@ -1123,7 +1123,7 @@
                 <when>2018-02-27T18:04:05Z</when>
             </TimeStamp>
             <Point id="geom_124">
-                <coordinates>-33.995002713333335,-70.693219795,0.0</coordinates>
+                <coordinates>-70.693219795,-33.995002713333335,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_127">
@@ -1132,7 +1132,7 @@
                 <when>2018-02-27T18:04:06Z</when>
             </TimeStamp>
             <Point id="geom_125">
-                <coordinates>-33.99505458,-70.69322360166667,0.0</coordinates>
+                <coordinates>-70.69322360166667,-33.99505458,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_128">
@@ -1141,7 +1141,7 @@
                 <when>2018-02-27T18:04:07Z</when>
             </TimeStamp>
             <Point id="geom_126">
-                <coordinates>-33.995097423333334,-70.69322714166667,0.0</coordinates>
+                <coordinates>-70.69322714166667,-33.995097423333334,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_129">
@@ -1150,7 +1150,7 @@
                 <when>2018-02-27T18:04:08Z</when>
             </TimeStamp>
             <Point id="geom_127">
-                <coordinates>-33.99514034333333,-70.69323023166666,0.0</coordinates>
+                <coordinates>-70.69323023166666,-33.99514034333333,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_130">
@@ -1159,7 +1159,7 @@
                 <when>2018-02-27T18:04:10Z</when>
             </TimeStamp>
             <Point id="geom_128">
-                <coordinates>-33.99519264833334,-70.69323363666666,0.0</coordinates>
+                <coordinates>-70.69323363666666,-33.99519264833334,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_131">
@@ -1168,7 +1168,7 @@
                 <when>2018-02-27T18:04:11Z</when>
             </TimeStamp>
             <Point id="geom_129">
-                <coordinates>-33.99523531,-70.69323632,0.0</coordinates>
+                <coordinates>-70.69323632,-33.99523531,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_132">
@@ -1177,7 +1177,7 @@
                 <when>2018-02-27T18:04:12Z</when>
             </TimeStamp>
             <Point id="geom_130">
-                <coordinates>-33.995282421666666,-70.69323905333333,0.0</coordinates>
+                <coordinates>-70.69323905333333,-33.995282421666666,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_133">
@@ -1186,7 +1186,7 @@
                 <when>2018-02-27T18:04:13Z</when>
             </TimeStamp>
             <Point id="geom_131">
-                <coordinates>-33.99532935333333,-70.69324377,0.0</coordinates>
+                <coordinates>-70.69324377,-33.99532935333333,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_134">
@@ -1195,7 +1195,7 @@
                 <when>2018-02-27T18:04:14Z</when>
             </TimeStamp>
             <Point id="geom_132">
-                <coordinates>-33.99537139666667,-70.69324742,0.0</coordinates>
+                <coordinates>-70.69324742,-33.99537139666667,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_135">
@@ -1204,7 +1204,7 @@
                 <when>2018-02-27T18:04:15Z</when>
             </TimeStamp>
             <Point id="geom_133">
-                <coordinates>-33.99541805333333,-70.693251055,0.0</coordinates>
+                <coordinates>-70.693251055,-33.99541805333333,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_136">
@@ -1213,7 +1213,7 @@
                 <when>2018-02-27T18:04:16Z</when>
             </TimeStamp>
             <Point id="geom_134">
-                <coordinates>-33.99546471666667,-70.69325451666667,0.0</coordinates>
+                <coordinates>-70.69325451666667,-33.99546471666667,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_137">
@@ -1222,7 +1222,7 @@
                 <when>2018-02-27T18:04:17Z</when>
             </TimeStamp>
             <Point id="geom_135">
-                <coordinates>-33.99551157166667,-70.69325760666666,0.0</coordinates>
+                <coordinates>-70.69325760666666,-33.99551157166667,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_138">
@@ -1231,7 +1231,7 @@
                 <when>2018-02-27T18:04:18Z</when>
             </TimeStamp>
             <Point id="geom_136">
-                <coordinates>-33.995558081666665,-70.69326243,0.0</coordinates>
+                <coordinates>-70.69326243,-33.995558081666665,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_139">
@@ -1240,7 +1240,7 @@
                 <when>2018-02-27T18:04:19Z</when>
             </TimeStamp>
             <Point id="geom_137">
-                <coordinates>-33.995581081666664,-70.69326549,0.0</coordinates>
+                <coordinates>-70.69326549,-33.995581081666664,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_140">
@@ -1249,7 +1249,7 @@
                 <when>2018-02-27T18:04:20Z</when>
             </TimeStamp>
             <Point id="geom_138">
-                <coordinates>-33.995607275,-70.69326957833333,0.0</coordinates>
+                <coordinates>-70.69326957833333,-33.995607275,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_141">
@@ -1258,7 +1258,7 @@
                 <when>2018-02-27T18:04:21Z</when>
             </TimeStamp>
             <Point id="geom_139">
-                <coordinates>-33.99563130166667,-70.69327267166666,0.0</coordinates>
+                <coordinates>-70.69327267166666,-33.99563130166667,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_142">
@@ -1267,7 +1267,7 @@
                 <when>2018-02-27T18:04:22Z</when>
             </TimeStamp>
             <Point id="geom_140">
-                <coordinates>-33.99565419166667,-70.69327429833334,0.0</coordinates>
+                <coordinates>-70.69327429833334,-33.99565419166667,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_143">
@@ -1276,7 +1276,7 @@
                 <when>2018-02-27T18:04:23Z</when>
             </TimeStamp>
             <Point id="geom_141">
-                <coordinates>-33.995677675,-70.69327669666667,0.0</coordinates>
+                <coordinates>-70.69327669666667,-33.995677675,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_144">
@@ -1285,7 +1285,7 @@
                 <when>2018-02-27T18:04:24Z</when>
             </TimeStamp>
             <Point id="geom_142">
-                <coordinates>-33.995705,-70.69327863833334,0.0</coordinates>
+                <coordinates>-70.69327863833334,-33.995705,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_145">
@@ -1294,7 +1294,7 @@
                 <when>2018-02-27T18:04:25Z</when>
             </TimeStamp>
             <Point id="geom_143">
-                <coordinates>-33.995728328333335,-70.69327748333333,0.0</coordinates>
+                <coordinates>-70.69327748333333,-33.995728328333335,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_146">
@@ -1303,7 +1303,7 @@
                 <when>2018-02-27T18:04:26Z</when>
             </TimeStamp>
             <Point id="geom_144">
-                <coordinates>-33.99584540833333,-70.69327765833333,0.0</coordinates>
+                <coordinates>-70.69327765833333,-33.99584540833333,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_147">
@@ -1312,7 +1312,7 @@
                 <when>2018-02-27T18:04:27Z</when>
             </TimeStamp>
             <Point id="geom_145">
-                <coordinates>-33.995884675,-70.693269085,0.0</coordinates>
+                <coordinates>-70.693269085,-33.995884675,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_148">
@@ -1321,7 +1321,7 @@
                 <when>2018-02-27T18:04:28Z</when>
             </TimeStamp>
             <Point id="geom_146">
-                <coordinates>-33.99592483,-70.69325554833334,0.0</coordinates>
+                <coordinates>-70.69325554833334,-33.99592483,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_149">
@@ -1330,7 +1330,7 @@
                 <when>2018-02-27T18:04:29Z</when>
             </TimeStamp>
             <Point id="geom_147">
-                <coordinates>-33.99596129,-70.69324348333333,0.0</coordinates>
+                <coordinates>-70.69324348333333,-33.99596129,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_150">
@@ -1339,7 +1339,7 @@
                 <when>2018-02-27T18:04:30Z</when>
             </TimeStamp>
             <Point id="geom_148">
-                <coordinates>-33.99599753166667,-70.69323260833333,0.0</coordinates>
+                <coordinates>-70.69323260833333,-33.99599753166667,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_151">
@@ -1348,7 +1348,7 @@
                 <when>2018-02-27T18:04:32Z</when>
             </TimeStamp>
             <Point id="geom_149">
-                <coordinates>-33.99602490666667,-70.69322831833334,0.0</coordinates>
+                <coordinates>-70.69322831833334,-33.99602490666667,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_152">
@@ -1357,7 +1357,7 @@
                 <when>2018-02-27T18:04:33Z</when>
             </TimeStamp>
             <Point id="geom_150">
-                <coordinates>-33.996059001666666,-70.693232025,0.0</coordinates>
+                <coordinates>-70.693232025,-33.996059001666666,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_153">
@@ -1366,7 +1366,7 @@
                 <when>2018-02-27T18:04:34Z</when>
             </TimeStamp>
             <Point id="geom_151">
-                <coordinates>-33.99609643833333,-70.69325158,0.0</coordinates>
+                <coordinates>-70.69325158,-33.99609643833333,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_154">
@@ -1375,7 +1375,7 @@
                 <when>2018-02-27T18:04:35Z</when>
             </TimeStamp>
             <Point id="geom_152">
-                <coordinates>-33.99612855,-70.69326439166667,0.0</coordinates>
+                <coordinates>-70.69326439166667,-33.99612855,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_155">
@@ -1384,7 +1384,7 @@
                 <when>2018-02-27T18:04:36Z</when>
             </TimeStamp>
             <Point id="geom_153">
-                <coordinates>-33.99616316833333,-70.69327372333333,0.0</coordinates>
+                <coordinates>-70.69327372333333,-33.99616316833333,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_156">
@@ -1393,7 +1393,7 @@
                 <when>2018-02-27T18:04:37Z</when>
             </TimeStamp>
             <Point id="geom_154">
-                <coordinates>-33.99620368,-70.69328374333334,0.0</coordinates>
+                <coordinates>-70.69328374333334,-33.99620368,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_157">
@@ -1402,7 +1402,7 @@
                 <when>2018-02-27T18:04:38Z</when>
             </TimeStamp>
             <Point id="geom_155">
-                <coordinates>-33.99624838,-70.693292215,0.0</coordinates>
+                <coordinates>-70.693292215,-33.99624838,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_158">
@@ -1411,7 +1411,7 @@
                 <when>2018-02-27T18:04:39Z</when>
             </TimeStamp>
             <Point id="geom_156">
-                <coordinates>-33.996297555,-70.69329576166666,0.0</coordinates>
+                <coordinates>-70.69329576166666,-33.996297555,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_159">
@@ -1420,7 +1420,7 @@
                 <when>2018-02-27T18:04:40Z</when>
             </TimeStamp>
             <Point id="geom_157">
-                <coordinates>-33.996337833333335,-70.69329742333333,0.0</coordinates>
+                <coordinates>-70.69329742333333,-33.996337833333335,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_160">
@@ -1429,7 +1429,7 @@
                 <when>2018-02-27T18:04:41Z</when>
             </TimeStamp>
             <Point id="geom_158">
-                <coordinates>-33.99638205,-70.69329452333334,0.0</coordinates>
+                <coordinates>-70.69329452333334,-33.99638205,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_161">
@@ -1438,7 +1438,7 @@
                 <when>2018-02-27T18:04:42Z</when>
             </TimeStamp>
             <Point id="geom_159">
-                <coordinates>-33.996426486666664,-70.693292765,0.0</coordinates>
+                <coordinates>-70.693292765,-33.996426486666664,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_162">
@@ -1447,7 +1447,7 @@
                 <when>2018-02-27T18:04:43Z</when>
             </TimeStamp>
             <Point id="geom_160">
-                <coordinates>-33.996470998333336,-70.69329481166666,0.0</coordinates>
+                <coordinates>-70.69329481166666,-33.996470998333336,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_163">
@@ -1456,7 +1456,7 @@
                 <when>2018-02-27T18:04:44Z</when>
             </TimeStamp>
             <Point id="geom_161">
-                <coordinates>-33.99650745,-70.693297785,0.0</coordinates>
+                <coordinates>-70.693297785,-33.99650745,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_164">
@@ -1465,7 +1465,7 @@
                 <when>2018-02-27T18:04:45Z</when>
             </TimeStamp>
             <Point id="geom_162">
-                <coordinates>-33.996557841666665,-70.693302245,0.0</coordinates>
+                <coordinates>-70.693302245,-33.996557841666665,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_165">
@@ -1474,7 +1474,7 @@
                 <when>2018-02-27T18:04:46Z</when>
             </TimeStamp>
             <Point id="geom_163">
-                <coordinates>-33.99660370666667,-70.693305475,0.0</coordinates>
+                <coordinates>-70.693305475,-33.99660370666667,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_166">
@@ -1483,7 +1483,7 @@
                 <when>2018-02-27T18:04:47Z</when>
             </TimeStamp>
             <Point id="geom_164">
-                <coordinates>-33.996654135,-70.69330838666667,0.0</coordinates>
+                <coordinates>-70.69330838666667,-33.996654135,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_167">
@@ -1492,7 +1492,7 @@
                 <when>2018-02-27T18:04:48Z</when>
             </TimeStamp>
             <Point id="geom_165">
-                <coordinates>-33.99671736166667,-70.69331105666667,0.0</coordinates>
+                <coordinates>-70.69331105666667,-33.99671736166667,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_168">
@@ -1501,7 +1501,7 @@
                 <when>2018-02-27T18:04:49Z</when>
             </TimeStamp>
             <Point id="geom_166">
-                <coordinates>-33.99678929,-70.69330719833333,0.0</coordinates>
+                <coordinates>-70.69330719833333,-33.99678929,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_169">
@@ -1510,7 +1510,7 @@
                 <when>2018-02-27T18:04:50Z</when>
             </TimeStamp>
             <Point id="geom_167">
-                <coordinates>-33.99683675,-70.69329504,0.0</coordinates>
+                <coordinates>-70.69329504,-33.99683675,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_170">
@@ -1519,7 +1519,7 @@
                 <when>2018-02-27T18:04:51Z</when>
             </TimeStamp>
             <Point id="geom_168">
-                <coordinates>-33.996873655,-70.69327940833334,0.0</coordinates>
+                <coordinates>-70.69327940833334,-33.996873655,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_171">
@@ -1528,7 +1528,7 @@
                 <when>2018-02-27T18:04:52Z</when>
             </TimeStamp>
             <Point id="geom_169">
-                <coordinates>-33.99692164166667,-70.693255115,0.0</coordinates>
+                <coordinates>-70.693255115,-33.99692164166667,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_172">
@@ -1537,7 +1537,7 @@
                 <when>2018-02-27T18:04:53Z</when>
             </TimeStamp>
             <Point id="geom_170">
-                <coordinates>-33.996952818333334,-70.69323874166666,0.0</coordinates>
+                <coordinates>-70.69323874166666,-33.996952818333334,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_173">
@@ -1546,7 +1546,7 @@
                 <when>2018-02-27T18:04:54Z</when>
             </TimeStamp>
             <Point id="geom_171">
-                <coordinates>-33.99699248333334,-70.69322196666667,0.0</coordinates>
+                <coordinates>-70.69322196666667,-33.99699248333334,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_174">
@@ -1555,7 +1555,7 @@
                 <when>2018-02-27T18:04:55Z</when>
             </TimeStamp>
             <Point id="geom_172">
-                <coordinates>-33.99702007,-70.69321354666667,0.0</coordinates>
+                <coordinates>-70.69321354666667,-33.99702007,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_175">
@@ -1564,7 +1564,7 @@
                 <when>2018-02-27T18:04:56Z</when>
             </TimeStamp>
             <Point id="geom_173">
-                <coordinates>-33.997051191666664,-70.69321186666667,0.0</coordinates>
+                <coordinates>-70.69321186666667,-33.997051191666664,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_176">
@@ -1573,7 +1573,7 @@
                 <when>2018-02-27T18:04:57Z</when>
             </TimeStamp>
             <Point id="geom_174">
-                <coordinates>-33.997078611666666,-70.69321894,0.0</coordinates>
+                <coordinates>-70.69321894,-33.997078611666666,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_177">
@@ -1582,7 +1582,7 @@
                 <when>2018-02-27T18:04:58Z</when>
             </TimeStamp>
             <Point id="geom_175">
-                <coordinates>-33.997101031666666,-70.69323109,0.0</coordinates>
+                <coordinates>-70.69323109,-33.997101031666666,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_178">
@@ -1591,7 +1591,7 @@
                 <when>2018-02-27T18:05:00Z</when>
             </TimeStamp>
             <Point id="geom_176">
-                <coordinates>-33.99717252333333,-70.693272475,0.0</coordinates>
+                <coordinates>-70.693272475,-33.99717252333333,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_179">
@@ -1600,7 +1600,7 @@
                 <when>2018-02-27T18:05:01Z</when>
             </TimeStamp>
             <Point id="geom_177">
-                <coordinates>-33.99719916833333,-70.69327969833333,0.0</coordinates>
+                <coordinates>-70.69327969833333,-33.99719916833333,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_180">
@@ -1609,7 +1609,7 @@
                 <when>2018-02-27T18:05:03Z</when>
             </TimeStamp>
             <Point id="geom_178">
-                <coordinates>-33.997222343333334,-70.69328533833334,0.0</coordinates>
+                <coordinates>-70.69328533833334,-33.997222343333334,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_181">
@@ -1618,7 +1618,7 @@
                 <when>2018-02-27T18:05:04Z</when>
             </TimeStamp>
             <Point id="geom_179">
-                <coordinates>-33.99724517833333,-70.69329004833334,0.0</coordinates>
+                <coordinates>-70.69329004833334,-33.99724517833333,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_182">
@@ -1627,7 +1627,7 @@
                 <when>2018-02-27T18:05:05Z</when>
             </TimeStamp>
             <Point id="geom_180">
-                <coordinates>-33.99727704833333,-70.69329768833333,0.0</coordinates>
+                <coordinates>-70.69329768833333,-33.99727704833333,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_183">
@@ -1636,7 +1636,7 @@
                 <when>2018-02-27T18:05:06Z</when>
             </TimeStamp>
             <Point id="geom_181">
-                <coordinates>-33.99731989,-70.69330654,0.0</coordinates>
+                <coordinates>-70.69330654,-33.99731989,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_184">
@@ -1645,7 +1645,7 @@
                 <when>2018-02-27T18:05:07Z</when>
             </TimeStamp>
             <Point id="geom_182">
-                <coordinates>-33.997355205,-70.69331180333333,0.0</coordinates>
+                <coordinates>-70.69331180333333,-33.997355205,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_185">
@@ -1654,7 +1654,7 @@
                 <when>2018-02-27T18:05:08Z</when>
             </TimeStamp>
             <Point id="geom_183">
-                <coordinates>-33.99739444833333,-70.69331669833333,0.0</coordinates>
+                <coordinates>-70.69331669833333,-33.99739444833333,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_186">
@@ -1663,7 +1663,7 @@
                 <when>2018-02-27T18:05:09Z</when>
             </TimeStamp>
             <Point id="geom_184">
-                <coordinates>-33.99743409333333,-70.69332038166667,0.0</coordinates>
+                <coordinates>-70.69332038166667,-33.99743409333333,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_187">
@@ -1672,7 +1672,7 @@
                 <when>2018-02-27T18:05:10Z</when>
             </TimeStamp>
             <Point id="geom_185">
-                <coordinates>-33.997469323333334,-70.69332234,0.0</coordinates>
+                <coordinates>-70.69332234,-33.997469323333334,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_188">
@@ -1681,7 +1681,7 @@
                 <when>2018-02-27T18:05:11Z</when>
             </TimeStamp>
             <Point id="geom_186">
-                <coordinates>-33.997504315,-70.693324695,0.0</coordinates>
+                <coordinates>-70.693324695,-33.997504315,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_189">
@@ -1690,7 +1690,7 @@
                 <when>2018-02-27T18:05:12Z</when>
             </TimeStamp>
             <Point id="geom_187">
-                <coordinates>-33.99755188,-70.69332744,0.0</coordinates>
+                <coordinates>-70.69332744,-33.99755188,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_190">
@@ -1699,7 +1699,7 @@
                 <when>2018-02-27T18:05:13Z</when>
             </TimeStamp>
             <Point id="geom_188">
-                <coordinates>-33.997624136666666,-70.693330965,0.0</coordinates>
+                <coordinates>-70.693330965,-33.997624136666666,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_191">
@@ -1708,7 +1708,7 @@
                 <when>2018-02-27T18:05:14Z</when>
             </TimeStamp>
             <Point id="geom_189">
-                <coordinates>-33.99767314666666,-70.69332827,0.0</coordinates>
+                <coordinates>-70.69332827,-33.99767314666666,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_192">
@@ -1717,7 +1717,7 @@
                 <when>2018-02-27T18:05:15Z</when>
             </TimeStamp>
             <Point id="geom_190">
-                <coordinates>-33.99771568333333,-70.69330783833334,0.0</coordinates>
+                <coordinates>-70.69330783833334,-33.99771568333333,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_193">
@@ -1726,7 +1726,7 @@
                 <when>2018-02-27T18:05:16Z</when>
             </TimeStamp>
             <Point id="geom_191">
-                <coordinates>-33.997742853333335,-70.69326787166666,0.0</coordinates>
+                <coordinates>-70.69326787166666,-33.997742853333335,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_194">
@@ -1735,7 +1735,7 @@
                 <when>2018-02-27T18:05:17Z</when>
             </TimeStamp>
             <Point id="geom_192">
-                <coordinates>-33.99775693,-70.69322570666667,0.0</coordinates>
+                <coordinates>-70.69322570666667,-33.99775693,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_195">
@@ -1744,7 +1744,7 @@
                 <when>2018-02-27T18:05:18Z</when>
             </TimeStamp>
             <Point id="geom_193">
-                <coordinates>-33.99776949666666,-70.69316276,0.0</coordinates>
+                <coordinates>-70.69316276,-33.99776949666666,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_196">
@@ -1753,7 +1753,7 @@
                 <when>2018-02-27T18:05:19Z</when>
             </TimeStamp>
             <Point id="geom_194">
-                <coordinates>-33.99777530833333,-70.69310872333334,0.0</coordinates>
+                <coordinates>-70.69310872333334,-33.99777530833333,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_197">
@@ -1762,7 +1762,7 @@
                 <when>2018-02-27T18:05:20Z</when>
             </TimeStamp>
             <Point id="geom_195">
-                <coordinates>-33.997780033333335,-70.69305375166667,0.0</coordinates>
+                <coordinates>-70.69305375166667,-33.997780033333335,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_198">
@@ -1771,7 +1771,7 @@
                 <when>2018-02-27T18:05:21Z</when>
             </TimeStamp>
             <Point id="geom_196">
-                <coordinates>-33.99778389833333,-70.69301009666667,0.0</coordinates>
+                <coordinates>-70.69301009666667,-33.99778389833333,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_199">
@@ -1780,7 +1780,7 @@
                 <when>2018-02-27T18:05:23Z</when>
             </TimeStamp>
             <Point id="geom_197">
-                <coordinates>-33.99779189833333,-70.69293890166666,0.0</coordinates>
+                <coordinates>-70.69293890166666,-33.99779189833333,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_200">
@@ -1789,7 +1789,7 @@
                 <when>2018-02-27T18:05:24Z</when>
             </TimeStamp>
             <Point id="geom_198">
-                <coordinates>-33.99780185,-70.69288500333333,0.0</coordinates>
+                <coordinates>-70.69288500333333,-33.99780185,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_201">
@@ -1798,7 +1798,7 @@
                 <when>2018-02-27T18:05:25Z</when>
             </TimeStamp>
             <Point id="geom_199">
-                <coordinates>-33.997812115,-70.69283471,0.0</coordinates>
+                <coordinates>-70.69283471,-33.997812115,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_202">
@@ -1807,7 +1807,7 @@
                 <when>2018-02-27T18:05:26Z</when>
             </TimeStamp>
             <Point id="geom_200">
-                <coordinates>-33.9978231,-70.69277936,0.0</coordinates>
+                <coordinates>-70.69277936,-33.9978231,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_203">
@@ -1816,7 +1816,7 @@
                 <when>2018-02-27T18:05:27Z</when>
             </TimeStamp>
             <Point id="geom_201">
-                <coordinates>-33.997829525,-70.69273219833333,0.0</coordinates>
+                <coordinates>-70.69273219833333,-33.997829525,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_204">
@@ -1825,7 +1825,7 @@
                 <when>2018-02-27T18:05:28Z</when>
             </TimeStamp>
             <Point id="geom_202">
-                <coordinates>-33.99782821,-70.692694455,0.0</coordinates>
+                <coordinates>-70.692694455,-33.99782821,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_205">
@@ -1834,7 +1834,7 @@
                 <when>2018-02-27T18:05:29Z</when>
             </TimeStamp>
             <Point id="geom_203">
-                <coordinates>-33.997817366666666,-70.69266129833333,0.0</coordinates>
+                <coordinates>-70.69266129833333,-33.997817366666666,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_206">
@@ -1843,7 +1843,7 @@
                 <when>2018-02-27T18:05:30Z</when>
             </TimeStamp>
             <Point id="geom_204">
-                <coordinates>-33.997798895,-70.69263528,0.0</coordinates>
+                <coordinates>-70.69263528,-33.997798895,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_207">
@@ -1852,7 +1852,7 @@
                 <when>2018-02-27T18:05:31Z</when>
             </TimeStamp>
             <Point id="geom_205">
-                <coordinates>-33.997785415,-70.69260894,0.0</coordinates>
+                <coordinates>-70.69260894,-33.997785415,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_208">
@@ -1861,7 +1861,7 @@
                 <when>2018-02-27T18:05:32Z</when>
             </TimeStamp>
             <Point id="geom_206">
-                <coordinates>-33.997782415,-70.69257675,0.0</coordinates>
+                <coordinates>-70.69257675,-33.997782415,0.0</coordinates>
             </Point>
         </Placemark>
     </Document>

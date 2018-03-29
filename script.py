@@ -5,6 +5,24 @@ import sys
 from os import listdir
 from os.path import isfile, join, isdir
 import csv
+from math import radians, cos, sin, asin, sqrt
+
+
+def haversine(lon1, lat1, lon2, lat2):  #Formula para calcular 
+    """
+    Calculate the great circle distance between two points 
+    on the earth (specified in decimal degrees)
+    """
+    # convert decimal degrees to radians 
+    lon1, lat1, lon2, lat2 = map(radians, [lon1, lat1, lon2, lat2])
+    # haversine formula 
+    dlon = lon2 - lon1 
+    dlat = lat2 - lat1 
+    a = sin(dlat/2)**2 + cos(lat1) * cos(lat2) * sin(dlon/2)**2
+    c = 2 * asin(sqrt(a)) 
+    # Radius of earth in kilometers is 6371
+    km = 6371* c
+    return km
 
 
 def cleanJson(database):
@@ -60,7 +78,7 @@ class JsonData():
 				lon = convert_coordinates(dic["longitude"])
 				lat = convert_coordinates(dic["latitude"])
 				datatime = int(float(dic["timestamp"]))
-				data_locaciones.append((lat,lon,datatime))
+				data_locaciones.append((lon,lat,datatime))
 			except:
 				lineas_invalidas+=1
 				data_invalida.append(dic)
@@ -129,10 +147,31 @@ class JsonData():
 		print("Exporte la data a csv")
 
 
-	def review_speed(self):
+	def review(self,speed_limit, time_limit):
 		output=[]
-		for x, y in zip(self.master_database[:-1], self.master_database[1:]):
-			pass
+		redudant_data=[]
+		for x, y in zip(self.gps_database[:-1], self.gps_database[1:]):
+			delta_latitud = y["latitude"]-x["latitude"]
+			delta_longitude = y["longitude"]-x["longitude"]
+			delta_time = y["timestamp"]-x["timestamp"]
+
+			distancia=(haversine(x["longitude"],x["latitude"],y["longitude"],y["latitude"]))
+			velocidad= distancia/(delta_time/3600)
+
+			if velocidad>speed_limit:  #Estoy usando timestamp
+				print("Se alcanzo una velocidad anormal de {} en {}".format(velocidad,x["timestamp"]))
+
+			if delta_time>time_limit:
+				print("Se encontró una laguna sin mediciones de {} segundos").format(delta_time)
+
+			if x["utc"] == y["utc"]:
+				print("No se actualizó la data en {}, utc constante".format(x["timestamp"]))
+
+			if (x["latitude"],x["longitude"]) == (y["latitude"],y["longitude"]) and x["utc"] != y["utc"]:
+				#redudant_data.append(y) #Considerar que deben quedar al menos 2
+
+		#print(list(set(self.gps_database) - set(redudant_data))) #Data final con no repetidos
+
 
 
 if __name__ == '__main__':
@@ -141,10 +180,11 @@ if __name__ == '__main__':
 	x.clean_data()
 	#for i in x.gps_database:
 	#	print(i)
-	x.export_to_csv("/Users/benjamimo1/Documents/AgroBolt/Data-test/output.csv","gps")
+	#x.export_to_csv("/Users/benjamimo1/Documents/AgroBolt/Data-test/output.csv","gps")
 	x.export_to_kml("/Users/benjamimo1/Documents/AgroBolt/Data-test")
+	x.review(40,10)
 
-	
+
 	#toCSV = [{'name':'bob','age':25,'weight':200},
          #{'name':'jim','age':31,'weight':180}]
 	#data_to_csv(toCSV,"/Users/benjamimo1/Documents/AgroBolt/Data-test/output.csv")
