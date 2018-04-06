@@ -24,7 +24,6 @@ def haversine(lon1, lat1, lon2, lat2):  #Formula para calcular
     km = 6371* c
     return km
 
-
 def cleanJson(database):
 	content = database.readlines()
 	if "\x00" in (content[-1]):  #Busco byte asociado a informacion NULA, Chequeo solo la ultima linea
@@ -44,6 +43,32 @@ def convert_coordinates(string):  #Transforma coordenadas con Orientacion al fin
 				output = float(string[:-1])/100
 
 	return output
+
+def check_valid_coordinate(string,option): #Avisar!, en el codigo matar
+	if type(string) == str:
+		if string[-1].isalpha():
+			string = string[:-1]
+		x = string.split(".")
+		if option == "lon":
+			y = 5
+		elif option == "lat":
+			y = 4
+		else:
+			print("No se declaro option")
+
+		if len(x[0]) == y:
+			if len(x[1]) == 7:
+				return True
+			else:
+				print("Coordenada de largo correcto, precisión incorrecta")
+				return False
+		else:
+			print("Coordenada de largo correcto incorrecto")  #No importa chequear precisión
+			return False
+	else:
+		print("Pasa test por estar en formato numerico (parser)")
+		return True
+
 
 def remove_duplicates(x):  #Elimina duplicados de informacion (duplicados perfectos)
 	return list(set(x))
@@ -94,17 +119,18 @@ class JsonData():
 		for i in data_locaciones:
 			pnt = kml.newpoint(name= time.strftime("%Y-%m-%d %H:%M:%S",time.localtime(i[2])), coords=[(i[0],i[1])])  # lon, lat, optional height
 			pnt.timestamp.when = time.strftime("%Y-%m-%dT%H:%M:%SZ",time.localtime(i[2]))
-		kml.save(output_path+"/"+"output.kml")
+		kml.save(output_path+"output.kml")
 
 		print("Exporte archivo KML")
 
-
-	def add_data(self,ruta,filtro=""):  #Agregar el filtro de limpieza de data aca
-		if ruta[-5:] == ".json" and filtro in ruta:
+	def add_data(self,ruta,filtro=""):  #Agregar el filtro de limpieza de data aca fecha: 2018-02-03
+		if (ruta[-5:] == ".json" or ruta[-4:] == ".log") and filtro in ruta:
 			with open(ruta, 'r') as content:
 				database = cleanJson(content) #Lista de diccionarios, cada diccionario es un log
 				self.master_database += [json.loads(i) for i in database] #Lista de objetos JSON
 				print("Importe el archivo {}".format(ruta))
+
+
 		elif isdir(ruta):
 			files = [f for f in listdir(ruta) if isfile(join(ruta, f))]
 			contador = 0
@@ -116,6 +142,7 @@ class JsonData():
 						self.master_database += [json.loads(i) for i in content] #Lista de objetos JSON
 						contador+=1
 			print("Numero de archivos .json importados: {}".format(contador))
+
 		else:
 			print("Error al importar")
 
@@ -157,21 +184,29 @@ class JsonData():
 	def review(self,speed_limit, time_limit):
 		output=[]
 		redudant_data=[]
+		disposable_data=[]
 		duplicated = False
 
 		for x, y in zip(self.gps_database[:-1], self.gps_database[1:]):
-			delta_latitud = y["latitude"]-x["latitude"]
-			delta_longitude = y["longitude"]-x["longitude"]
+
+			latitude_2= convert_coordinates(y["latitude"])
+			latitude_1= convert_coordinates(x["latitude"])
+			longitude_2= convert_coordinates(y["longitude"])
+			longitude_1= convert_coordinates(x["longitude"])
+
+			delta_latitud = latitude_2 - latitude_1
+			delta_longitude = longitude_2 - longitude_1
 			delta_time = y["timestamp"]-x["timestamp"]
 
-			distancia=(haversine(x["longitude"],x["latitude"],y["longitude"],y["latitude"]))
+			distancia=(haversine(longitude_1,latitude_1,longitude_2,latitude_2))  
 			velocidad= distancia/(delta_time/3600)
 
 			if velocidad>speed_limit:  #Estoy usando timestamp
 				print("Se alcanzo una velocidad anormal de {} en {}".format(velocidad,x["timestamp"]))
 
 			if delta_time>time_limit:
-				print("Se encontró una laguna sin mediciones de {} segundos").format(delta_time)
+				print("""Se encontró una laguna sin mediciones de {} segundos\nEsta se encontró entre ({},{})
+""".format(delta_time,x["timestamp"],y["timestamp"]))
 
 			if x["utc"] == y["utc"]:
 				print("No se actualizó la data en {}, utc constante".format(x["timestamp"]))
@@ -184,21 +219,47 @@ class JsonData():
 				if duplicated == True:
 					duplicated = False
 					redudant_data.pop()  #Teoricamente correcto
-		output = [i for i in self.gps_database if i not in redudant_data]
+
+			if check_valid_coordinate(x["latitude"],"lat") and check_valid_coordinate(x["longitude"],"lon"):
+				pass
+			else:
+				print("coordenada no cumple con formato valido: {}".format((x["latitude"],x["longitude"])))
+				disposable_data.append(x)
+
+		output = [i for i in self.gps_database if i not in redudant_data and i not in disposable_data]
 		print("Numero de entradas redundantes: {}".format(len(redudant_data)))
+
+		return output
 
 
 if __name__ == '__main__':
-	x = JsonData()
-	x.add_data("/Users/benjamimo1/Documents/AgroBolt/Data-test/Formato1-Limpio.json")
-	x.clean_data()
-	#for i in x.gps_database:
-	#	print(i)
-	x.export_to_csv("/Users/benjamimo1/Documents/AgroBolt/Data-test/output.csv","gps")
-	x.export_to_kml("/Users/benjamimo1/Documents/AgroBolt/Data-test")
-	x.review(40,10)
+	pass
+	#Caso 1 exitoso, el check valid gps omite por que el formato no es verificable, presenta exceso velocidad
+	#x = JsonData()
+	#x.add_data("/Users/benjamimo1/Documents/AgroBolt/Data-test/Formato1-Limpio.json")
+	#x.clean_data()
+	##for i in x.gps_database:
+	##	print(i)
+	#x.export_to_csv("/Users/benjamimo1/Documents/AgroBolt/Data-test/output.csv","gps")
+	#x.export_to_kml("/Users/benjamimo1/Documents/AgroBolt/Data-test")
+	#x.review(40,10)
 	#filtrado = x.filter_by_id("011")
 
+	#Caso 2: Se revisa filtrado operativo a la hora de importar la data, presenta lagunas
+	#x = JsonData()
+	#x.add_data("/Users/benjamimo1/Documents/AgroBolt/sub_data/","2018-02-03")
+	#x.clean_data()
+	#x.export_to_csv("/Users/benjamimo1/Documents/AgroBolt/sub_data/2018-02-03.csv","gps")
+	#x.export_to_kml("/Users/benjamimo1/Documents/AgroBolt/sub_data/")
+	#y = x.review(40,10)
+	#for i in y:
+	#	print(y)
+
+	#Caso 3: Archivo del tipo log
+	x =  JsonData()
+	x.add_data("/Users/benjamimo1/Documents/AgroBolt/GARCES_BACKUP_V2/data_2_datalogger-GARCES_01_2018-03-14 20_45_55.056404.log")
+	for i in x.master_database:
+		print(i)
 
 	#toCSV = [{'name':'bob','age':25,'weight':200},
          #{'name':'jim','age':31,'weight':180}]
